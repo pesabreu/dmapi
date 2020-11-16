@@ -1,0 +1,31 @@
+{
+  "name": "dmapi",
+  "version": "1.0.0",
+  "description": "API Teste Delivery Much",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --unhandled-rejections=none",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pesabreu/dmapi.git"
+  },
+  "keywords": [
+    "API"
+  ],
+  "author": "Paulo E.S. Abreu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pesabreu/dmapi/issues"
+  },
+  "homepage": "https://github.com/pesabreu/dmapi#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "consign": "^0.1.6",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.1",
+    "nodemon": "^2.0.6"
+  }
+}
