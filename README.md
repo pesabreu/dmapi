@@ -6,10 +6,6 @@
     🌱 Proporciona acesso a diversas receitas à partir do envio de ingredientes.
 </h3>
 
-<p align="center">
-  <img alt="GitHub language count" src="https://github.com/pesabreu/dmapi/README"> 
-</p>
-
 <h4 align="center">
 	🚧   Em testes 🚀 🚧
 </h4>
@@ -78,6 +74,7 @@ $docker run -d -p 3636:3636 --name dmapi_001 dmapi/node
 
 # O servidor inciará na porta:3636 - acesse http://localhost:3636/recipes?i=ingrediente1,[ingrediente2],[ingrediente3] 
 # A Porta de acesso ao endpoint da API pode ser configurada direto na aplicação(arquivo .env) ou na imagem Docker no arquivo Dockerfile  
+#
 
 ---
 
@@ -112,10 +109,11 @@ As seguintes ferramentas foram usadas na construção do projeto:
 ## 🦸 Autor
 
 <a href="https://pesabreu.com/">
- <br />
- <sub><b>Paulo E S Abreu</b></sub></a> <a href="https://pesabreu.com/" title="Pesabreu WMS"></a>
- <br />
+  <sub><b>Paulo E S Abreu</b></sub>
+</a>
 
+<a href="https://pesabreu.com/" title="Pesabreu WMS"></a>
+<br />
 
 ---
 
@@ -123,10 +121,10 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 Este projeto esta sobe a licença [MIT](./LICENSE).
 
-Feito com por Paulo Abreu 👋🏽 [Entre em contato!](https://www.linkedin.com/in/paulo-emilio-dos-santos-abreu-43738b25/)
+Feito por Paulo Abreu 👋🏽 [Entre em contato!](https://www.linkedin.com/in/paulo-emilio-dos-santos-abreu-43738b25/)
 
 ---
 
 ##  Versões do README
 
-[Português 🇧🇷](./README.md)  |  [Inglês sem emojis 🇺🇸](./README-en.md) | [Portugues sem logo  🇧🇷](./README-sem-logo.md) 
+[Português 🇧🇷](./README.md)  | [Portugues sem logo  🇧🇷](./README-sem-logo.md) 
