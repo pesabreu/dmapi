@@ -5,5 +5,4 @@ module.exports = app => {
     // Receitas
     app.route('/recipes/:ingredientes')
         .get(app.api.recipes.get)
-
 }
