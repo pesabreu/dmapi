@@ -1,6 +1,8 @@
-const request = require('supertest')
-const app = require('./server')
+const request = require('supertest');
+const app = require('./server');
 
+
+// Testa requisição/resposta
 describe('Teste unitário de rotas', () => {
     it('Testar a rota principal', async () => {
         const res = await request(app)
@@ -12,5 +14,5 @@ describe('Teste unitário de rotas', () => {
 })
 
 app.listen(3636, () => {
-    console.log('API em Operação.....')
+    console.log('API em Operação.....');
 })
